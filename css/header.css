@@ -1,0 +1,55 @@
+header {
+    color: black;
+    padding: 16px 0;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+header h1 {
+    font-weight: normal;
+    font-size: 32px;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 10px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    position: relative;
+    z-index: 3;
+    background-color: transparent;
+}
+
+nav ul li {
+    margin: 0 16px;
+    background-color: transparent;
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: color 0.3s;
+    color: black;
+    background-color: #a7cd2c;
+}
+
+nav ul li a:hover {
+    color: #50c8c6;
+}
+
+.borderBackground {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 620px;
+    height: 700px;
+    background-color: #a7cd2c;
+    border-radius: 14% 86% 6% 94% / 87% 11% 89% 13% ;
+    z-index: 1;
+}
