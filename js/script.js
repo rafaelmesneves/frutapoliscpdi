@@ -6,11 +6,3 @@ const voltarAoTopo = () => {
     })
    }
 
-//função de ao ser acessado por mobile, o sistema abre diretamente a versão desktop
-function isMobileDevice() {
-    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
-}
-
-if (isMobileDevice()) {
-    window.location.href = 'index.html';
-}
