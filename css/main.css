@@ -30,6 +30,7 @@ section {
 .texto p {
     margin-bottom: 10px;
     font-size: 18px;
+    margin-bottom: 25px;
 }
 #apresentacao .imagem {
     flex: 1;
@@ -62,8 +63,12 @@ section {
     width: 40%;
 }
     
-button:hover {
+.botaoSuperior:hover {
         background-color: #50c8c6;
+}
+
+#quemSomos h2 , #nossaMissao h2, #nossosProdutos h2, #sustentabilidade h2 {
+    margin-bottom: 25px;
 }
 
 #quemSomos {
