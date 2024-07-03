@@ -103,6 +103,6 @@ button:hover {
     padding: 8px 16px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 70px;
+    font-size: 50px;
     width: 15%;
 }

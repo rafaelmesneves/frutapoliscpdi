@@ -1,4 +1,3 @@
-//função de subir ao topo
 const voltarAoTopo = () => {
     window.scrollTo({
    top: 0,
@@ -6,3 +5,10 @@ const voltarAoTopo = () => {
     })
    }
 
+let modoDark = document.getElementById('modoDark')
+let body = document.querySelector('body')
+
+modoDark.addEventListener('click', ()=> {
+    modoDark.classList.toggle('dark')
+    body.classList.toggle('dark')
+})
